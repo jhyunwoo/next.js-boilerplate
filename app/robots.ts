@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/admin/',
     },
-    sitemap: `${process.env.SITEURL!}/sitemap.xml`,
+    sitemap: `${process.env.SITE_URL!}/sitemap.xml`,
   }
 }
