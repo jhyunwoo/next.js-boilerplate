@@ -38,9 +38,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auth/core@npm:0.33.0":
-  version: 0.33.0
-  resolution: "@auth/core@npm:0.33.0"
+"@auth/core@npm:0.34.1":
+  version: 0.34.1
+  resolution: "@auth/core@npm:0.34.1"
   dependencies:
     "@panva/hkdf": "npm:^1.1.1"
     "@types/cookie": "npm:0.6.0"
@@ -60,16 +60,16 @@ __metadata:
       optional: true
     nodemailer:
       optional: true
-  checksum: 10c0/464e32f7424c8b96ad21db38758766ab014f2ec876b17318a741d49a88c3454c9440f7a35f66d413ca39df3d2b28cee2589075a30af506b4a523318765e18877
+  checksum: 10c0/e5300cb9fedf8c1044129b80d5f457fc44b44e4243b91c052988f83aa334047a8f3ef85519fe078c67e87fc5a526aabb646dfccd219c77865f5dace15f51d46f
   languageName: node
   linkType: hard
 
-"@auth/drizzle-adapter@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@auth/drizzle-adapter@npm:1.3.0"
+"@auth/drizzle-adapter@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@auth/drizzle-adapter@npm:1.4.1"
   dependencies:
-    "@auth/core": "npm:0.33.0"
-  checksum: 10c0/f24f1747803fdc79fb7748636fc8d83edff480ea17a94a889857a47edbbb8f09cbb553883e316b21b97e1dfd89d42f706b692e57678d00513189b30ca04cc956
+    "@auth/core": "npm:0.34.1"
+  checksum: 10c0/bf92194b0ba8914a1db55ca8fddd500deef2f5e15c65c9c488273447b70e763511b3ad7a867bec1ae62c735d2434ce0115c57c3a670559d6004cab0493e3a78b
   languageName: node
   linkType: hard
 
@@ -720,12 +720,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.14.2":
-  version: 20.14.2
-  resolution: "@types/node@npm:20.14.2"
+"@types/node@npm:^20.14.8":
+  version: 20.14.8
+  resolution: "@types/node@npm:20.14.8"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/2d86e5f2227aaa42212e82ea0affe72799111b888ff900916376450b02b09b963ca888b20d9c332d8d2b833ed4781987867a38eaa2e4863fa8439071468b0a6f
+  checksum: 10c0/06d4643fa3b179b41fe19f9c75c240278ca1f7a313b3b837bc36ea119499c7ad77f06bbe72694ac04aa91ec77fe747baa09b889f4c435450c1724a26bd55f160
   languageName: node
   linkType: hard
 
@@ -1126,8 +1126,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "boilerplate@workspace:."
   dependencies:
-    "@auth/drizzle-adapter": "npm:^1.3.0"
-    "@types/node": "npm:^20.14.2"
+    "@auth/drizzle-adapter": "npm:^1.4.1"
+    "@types/node": "npm:^20.14.8"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     dotenv: "npm:^16.4.5"
@@ -1137,7 +1137,7 @@ __metadata:
     eslint-config-next: "npm:14.2.4"
     next: "npm:14.2.4"
     next-auth: "npm:^5.0.0-beta.19"
-    postcss: "npm:^8"
+    postcss: "npm:^8.4.38"
     postgres: "npm:^3.4.4"
     prettier: "npm:^3.3.2"
     react: "npm:^18.3.1"
@@ -3863,7 +3863,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8, postcss@npm:^8.4.23":
+"postcss@npm:^8.4.23, postcss@npm:^8.4.38":
   version: 8.4.38
   resolution: "postcss@npm:8.4.38"
   dependencies:
